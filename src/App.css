@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.unor-list{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.list-item{
+  width: 30%;
+  background-color: gray;
+  margin-bottom: 3%;
+}
+.list-item img{
+  height: 250px;
+  width: 100%;
+}
+.list-item p{
+  font-family: "Roboto";
+  color: white;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.un-list{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+.btn-list{
+  border: 1px solid gray;
+  padding: 5px 10px 5.5px 10px;
+}
+.im-btn{
+  border: 1px solid gray;
+  padding: 5px 10px 0 10px;
+  height: 27px;
+}
+.add-color{
+  background-color: gray;
+}
+.btn-disable{
+  display: none;
+}
